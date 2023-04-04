@@ -1,0 +1,83 @@
+##############################################################
+# CLOCK
+# Clock input
+NET "CLK_IN"     				LOC = "P90";				# CPLD_CLK
+
+NET "CLK_IN" TNM_NET = "TNM_CLK_IN";
+#TIMESPEC "TS_CLK_IN" = PERIOD "TNM_CLK_IN" 25 ns HIGH 50%;
+TIMESPEC "TS_CLK_IN" = PERIOD "TNM_CLK_IN" 40 MHz HIGH 50%;
+
+##############################################################
+# POWER
+# Power control inputs
+NET "PGOOD_All_bus_IN<0>"		LOC = "P64";				# PGOOD_VCC_3V3_ADC6_IN
+NET "PGOOD_All_bus_IN<1>"		LOC = "P60";				# PGOOD_VCC_3V3_ADC5_IN
+NET "PGOOD_All_bus_IN<2>"		LOC = "P57";				# PGOOD_VCC_3V3_ADC4_IN
+NET "PGOOD_All_bus_IN<3>"		LOC = "P56";				# PGOOD_VCC_3V3_ADC3_IN
+NET "PGOOD_All_bus_IN<4>"		LOC = "P58";				# PGOOD_VCC_3V3_ADC2_IN
+NET "PGOOD_All_bus_IN<5>"		LOC = "P61";				# PGOOD_VCC_3V3_ADC1_IN
+NET "PGOOD_All_bus_IN<6>"		LOC = "P65";				# PGOOD_VCC_3V3_DAC_IN
+NET "PGOOD_All_bus_IN<7>"		LOC = "P75";				# PGOOD_VCC_1V8_ADC6_IN
+NET "PGOOD_All_bus_IN<8>"		LOC = "P72";				# PGOOD_VCC_1V8_ADC5_IN
+NET "PGOOD_All_bus_IN<9>"		LOC = "P71";				# PGOOD_VCC_1V8_ADC4_IN
+NET "PGOOD_All_bus_IN<10>"		LOC = "P70";				# PGOOD_VCC_1V8_ADC3_IN
+NET "PGOOD_All_bus_IN<11>"		LOC = "P69";				# PGOOD_VCC_1V8_ADC2_IN
+NET "PGOOD_All_bus_IN<12>"		LOC = "P63";				# PGOOD_VCC_1V8_ADC1_IN
+NET "PGOOD_All_bus_IN<13>"		LOC = "P67";				# PGOOD_VCC_1V8_DAC_IN
+NET "PGOOD_All_bus_IN<14>"		LOC = "P100";				# PGOOD_VCC_3V3_IN
+NET "PGOOD_All_bus_IN<15>"		LOC = "P94";				# PGOOD_VCC_2V5_IN
+NET "PGOOD_All_bus_IN<16>"		LOC = "P79";				# PGOOD_VCC_1V0_INT_1_IN
+NET "PGOOD_All_bus_IN<17>"		LOC = "P77";				# PGOOD_VCC_1V2_IN
+NET "PGOOD_All_bus_IN<18>"		LOC = "P76";				# PGOOD_VCC_1V0_IN
+NET "PGOOD_All_bus_IN<19>"		LOC = "P25";				# PGOOD_VCC_1V8_IN
+NET "PGOOD_All_bus_IN<20>"		LOC = "P22";				# PGOOD_VTT2_IN
+NET "PGOOD_All_bus_IN<21>"		LOC = "P20";				# PGOOD_VTT1_IN
+NET "PGOOD_All_bus_IN<22>"		LOC = "P80";				# PGOOD_VCC_1V5_2_IN
+NET "PGOOD_All_bus_IN<23>"		LOC = "P21";				# PGOOD_VCC_1V5_1_IN
+NET "PGOOD_All_bus_IN<24>"		LOC = "P23";				# PGOOD_VCC_1V0_INT_2_IN
+
+# Power enable outputs
+NET "EN_ANALOG_PWR_OUT"			LOC = "P68";				# EN_ANALOG_PWR_OUT
+NET "EN_DIGITAL_3V3_OUT"		LOC = "P98";				# EN_DIGITAL_3V3_OUT
+NET "EN_5V0_POWER_OUT"			LOC = "P78";				# EN_5V0_POWER_OUT
+NET "EN_VCC_2V5_OUT"			LOC = "P96";				# EN_VCC_2V5_OUT
+NET "EN_VCC_1V0_INT_OUT"		LOC = "P24";				# EN_VCC_1V0_INT_OUT
+
+##############################################################
+# LEDS
+# Front LEDs outputs
+NET "LED_CPLD_0_RED_OUT"		LOC = "P48";				# LED_CPLD_0_RED_OUT
+NET "LED_CPLD_1_GREEN_OUT"		LOC = "P47";				# LED_CPLD_1_GREEN_OUT
+NET "LED_CPLD_2_RED_OUT"		LOC = "P50";				# LED_CPLD_2_RED_OUT
+NET "LED_CPLD_3_GREEN_OUT"		LOC = "P49";				# LED_CPLD_3_GREEN_OUT
+
+# LEDs control intputs
+#NET "LED_DRIVER_SDO_IN"		LOC = "P55";				# LED_DRIVER_SDO_IN
+
+# LEDs control outputs
+NET "LED_DRIVER_CLK_OUT"		LOC = "P53";				# LED_DRIVER_CLK_OUT
+NET "LED_DRIVER_SDI_OUT"		LOC = "P54";				# LED_DRIVER_CLK_OUT
+NET "LED_DRIVER_LE_OUT"			LOC = "P52";				# LED_DRIVER_CLK_OUT
+
+##############################################################
+# User switch inputs
+NET "KEY_CPLD_IN<0>"			LOC = "P27" | PULLUP;		# KEY_CPLD_0
+NET "KEY_CPLD_IN<1>"			LOC = "P28" | PULLUP;		# KEY_CPLD_1
+NET "KEY_CPLD_IN<2>"			LOC = "P29" | PULLUP;		# KEY_CPLD_2
+NET "KEY_CPLD_IN<3>"			LOC = "P30" | PULLUP;		# KEY_CPLD_3
+#NET "KEY_CPLD_IN<4>"			LOC = "P31" | PULLUP;		# KEY_CPLD_4
+#NET "KEY_CPLD_IN<5>"			LOC = "P32" | PULLUP;		# KEY_CPLD_5
+#NET "KEY_CPLD_IN<6>"			LOC = "P33" | PULLUP;		# KEY_CPLD_6
+#NET "KEY_CPLD_IN<7>"			LOC = "P35" | PULLUP;		# KEY_CPLD_7
+
+##############################################################
+# PROG B output
+NET "FPGA_PROG_B_OUT"			LOC = "P1";					# FPGA_PROG_B_OUT
+
+##############################################################
+# Temperature sensor data input
+NET "Temp_sensor_SO_IN"			LOC = "P83";				# Temp_sensor_SO_IN
+
+# Temperature sensor control outputs
+NET "Temp_sensor_CS_OUT"		LOC = "P84";				# Temp_sensor_CS_OUT
+NET "Temp_sensor_SCK_OUT"		LOC = "P85";				# Temp_sensor_SCK_OUT

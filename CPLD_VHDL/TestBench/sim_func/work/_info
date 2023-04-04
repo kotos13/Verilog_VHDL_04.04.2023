@@ -1,0 +1,183 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Task1/Project_Xilinx/CPLD_VHDL/TestBench/sim_func
+T_opt
+!s110 1680508932
+V?^ja?Cbf2?m105eb:EMe<0
+04 20 8 work cpld_control_tb_func behavior 1
+=1-c860006971fb-642a87ff-3d0-760
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Ecpld_control
+Z1 w1680173482
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z6 8../../hdl/vhdl/CPLD_CONTROL.vhd
+Z7 F../../hdl/vhdl/CPLD_CONTROL.vhd
+l0
+L20
+VOEN124_mocT5Y7oHOU6?_1
+!s100 j]Ba<oz`5bGbME^nIJLQg1
+Z8 OL;C;10.7c;67
+33
+Z9 !s110 1680508923
+!i10b 1
+Z10 !s108 1680508922.000000
+Z11 !s90 -reportprogress|300|-2008|-work|work|../../hdl/vhdl/CPLD_CONTROL.vhd|
+Z12 !s107 ../../hdl/vhdl/CPLD_CONTROL.vhd|
+!i113 0
+Z13 o-2008 -work work
+Z14 tExplicit 1 NoCoverage 1 CvgOpt 0
+Astruct
+R2
+R3
+R4
+R5
+DEx4 work 12 cpld_control 0 22 OEN124_mocT5Y7oHOU6?_1
+l130
+L76
+VRJRo<2P^i[mJ4PLJ_F7^H0
+!s100 R91>^12_:DleSPA^i]nnn0
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ecpld_control_tb_func
+Z15 w1680000791
+R2
+R3
+R4
+R5
+R0
+Z16 8CPLD_CONTROL_tb_func.vhd
+Z17 FCPLD_CONTROL_tb_func.vhd
+l0
+L6
+Vc=fUifEh=kRh5D[Ch[WM]3
+!s100 nZ]hmn5z]I1jPU9Fi86R71
+R8
+33
+R9
+!i10b 1
+Z18 !s108 1680508923.000000
+Z19 !s90 -reportprogress|300|-2008|-work|work|CPLD_CONTROL_tb_func.vhd|
+Z20 !s107 CPLD_CONTROL_tb_func.vhd|
+!i113 0
+R13
+R14
+Abehavior
+R2
+R3
+R4
+R5
+DEx4 work 20 cpld_control_tb_func 0 22 c=fUifEh=kRh5D[Ch[WM]3
+l134
+L22
+VnSE`44Xh9][UoOjb`Qa`B2
+!s100 ;H1]JTi43R]?b@ea7_L7h3
+R8
+33
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R13
+R14
+Eled_driver
+Z21 w1397344780
+R4
+R5
+R0
+Z22 8../../hdl/vhdl/LED_driver.vhd
+Z23 F../../hdl/vhdl/LED_driver.vhd
+l0
+L7
+V@DoSG>I4i?:2;i3aY8GD^1
+!s100 4ii39n`8RREN7`8SJ6kWK2
+R8
+33
+Z24 !s110 1680508920
+!i10b 1
+Z25 !s108 1680508920.000000
+Z26 !s90 -reportprogress|300|-2008|-work|work|../../hdl/vhdl/LED_driver.vhd|
+Z27 !s107 ../../hdl/vhdl/LED_driver.vhd|
+!i113 0
+R13
+R14
+Artl_led_driver
+R4
+R5
+DEx4 work 10 led_driver 0 22 @DoSG>I4i?:2;i3aY8GD^1
+l33
+L23
+VI=5m0]_[f6`S;h]B2G`c=2
+!s100 d9Dd4OcHF2FJR1g6lHL3G2
+R8
+33
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R13
+R14
+Etemp_sensor_model
+Z28 w1678178878
+R4
+R5
+R0
+Z29 8../../hdl/vhdl/Temp_sensor_model.vhd
+Z30 F../../hdl/vhdl/Temp_sensor_model.vhd
+l0
+L7
+V6T?Y45ORFzeZgQej1TC2e3
+!s100 g9bnnJ=2aER[eUi=]GcTm0
+R8
+33
+Z31 !s110 1680508922
+!i10b 1
+Z32 !s108 1680508921.000000
+Z33 !s90 -reportprogress|300|-2008|-work|work|../../hdl/vhdl/Temp_sensor_model.vhd|
+Z34 !s107 ../../hdl/vhdl/Temp_sensor_model.vhd|
+!i113 0
+R13
+R14
+Abehavioral_temp_sensor_model
+R4
+R5
+DEx4 work 17 temp_sensor_model 0 22 6T?Y45ORFzeZgQej1TC2e3
+l34
+L25
+VZORBbD;=oAnm<M:W>L[N>0
+!s100 7lAajH:ZV1K2QSY3ER1;=2
+R8
+33
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R13
+R14

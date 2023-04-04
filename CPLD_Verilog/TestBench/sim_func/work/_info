@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Project_Xilinx/CPLD_Verilog/TestBench/sim_func
+T_opt
+!s110 1680598545
+VeTC=iYBd^7eboDDEmz<TI3
+04 20 4 work CPLD_CONTROL_tb_func fast 0
+=1-54ee75a3b0f6-642be611-13c-14a0
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vCPLD_CONTROL
+Z1 !s110 1680598544
+!i10b 1
+!s100 GA;K4g101O20@BVKSaNAz1
+I?:BC]26IJ?k:V^iNB2DF<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1680596398
+8../../hdl/verilog/CPLD_CONTROL.v
+F../../hdl/verilog/CPLD_CONTROL.v
+L0 15
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1680598544.000000
+!s107 ../../hdl/verilog/CPLD_CONTROL.v|
+!s90 -##implicit##push_minusfile_path##|D:/Task1/Project_Xilinx/CPLD_Verilog/TestBench/sim_func/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|../../hdl/verilog/CPLD_CONTROL.v|
+!i113 0
+Z5 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tVlog01Compat 1 CvgOpt 0
+n@c@p@l@d_@c@o@n@t@r@o@l
+vCPLD_CONTROL_tb_func
+R1
+!i10b 1
+!s100 @gPKlN2<K07d6@7Yi_A5i1
+IR49KzBfDPAWfVdRGSWC:g3
+R2
+R0
+w1680598206
+8CPLD_CONTROL_tb_func.v
+FCPLD_CONTROL_tb_func.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 CPLD_CONTROL_tb_func.v|
+!s90 -##implicit##push_minusfile_path##|D:/Task1/Project_Xilinx/CPLD_Verilog/TestBench/sim_func/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|CPLD_CONTROL_tb_func.v|
+!i113 0
+R5
+R6
+n@c@p@l@d_@c@o@n@t@r@o@l_tb_func
+vLED_driver
+R1
+!i10b 1
+!s100 FTQ7<OJ=OG5_G81F0IU830
+IR`T?LHZ3PmEOEA4;b87Y:3
+R2
+R0
+w1680173486
+8../../hdl/verilog/LED_driver.v
+F../../hdl/verilog/LED_driver.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../hdl/verilog/LED_driver.v|
+!s90 -##implicit##push_minusfile_path##|D:/Task1/Project_Xilinx/CPLD_Verilog/TestBench/sim_func/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|../../hdl/verilog/LED_driver.v|
+!i113 0
+R5
+R6
+n@l@e@d_driver
+vTemp_sensor_model
+R1
+!i10b 1
+!s100 9a05<aAEzI8]HKi^g5U?U0
+IlAMSAcGZ`3jzRo1aAP^BR2
+R2
+R0
+w1680596680
+8../../hdl/verilog/Temp_sensor_model.v
+F../../hdl/verilog/Temp_sensor_model.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../hdl/verilog/Temp_sensor_model.v|
+!s90 -##implicit##push_minusfile_path##|D:/Task1/Project_Xilinx/CPLD_Verilog/TestBench/sim_func/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|../../hdl/verilog/Temp_sensor_model.v|
+!i113 0
+R5
+R6
+n@temp_sensor_model
